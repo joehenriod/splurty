@@ -29,9 +29,21 @@ ASSHOLES
 	</header>
 	<hr />
 
-	<br class="clear" />
+	<div class="container">
+    <%= yield %>
+  </div>
 
-<%= yield %>
+  <div class="footer">
+    <div class="container">
+    	<div class="col-xs-6">
+      		<%= link_to "No children were harmed in the making of this website.", "#", :class => 'next-quote' %>
+  		</div>
+  		<div class="col-xs-6 footer-blurb">
+  			Created in Las Vegas, by coding Wizard <a href="http://joehenriod.com">Joe Henriod </a>
+  		</div>
+
+    </div>
+  </div>
 
 </body>
 </html>
