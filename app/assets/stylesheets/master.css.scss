@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
 .clear {
 	clear:both;
 }
@@ -42,6 +44,7 @@ font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill
 	color: black;
 	font-size: 24px;
 	border-bottom: 1px solid #dfdfdf;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -50,4 +53,13 @@ header {
 
 hr {
 	clear:both;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-family: 'rabioheadregular', sans-serif;
+	font-weight: bold;
 }
