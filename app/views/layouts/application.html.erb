@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Splurty</title>
+  <title>Almost Inspirational Quotes</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -48,12 +48,13 @@ QUOTES
 <% end %>
 
 		</div>
-		<div class="col-xs-4 slogan">
+		<div class="col-sm-4 hidden-xs slogan">
 			There is a thin line between inspiration and desperation.
 		</div>
-		<div class="col-xs-5 links">
+		 <div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
 			<!-- Button trigger modal -->
       <%= link_to 'Contribute', '#', :data => {:toggle => 'modal', :target => '#myModal'} %>
+        &nbsp;&nbsp;
 			<%= link_to 'About', about_path %>
 		</div>
 	</header>
@@ -70,10 +71,10 @@ QUOTES
 
   <div class="footer">
     <div class="container">
-    	<div class="col-xs-6">
-      		<%= link_to "No children were harmed in the making of this website.", root_path, :class => 'next-quote' %>
+    	 <div class="col-xs-12 col-sm-6">
+      		<%= link_to "This isn't enough, give me more shitty quotes", root_path, :class => 'next-quote' %>
   		</div>
-  		<div class="col-xs-6 footer-blurb">
+  		<div class="col-xs-12 col-sm-6 footer-blurb">
   			Created in Las Vegas, by coding Wizard <a href="http://joehenriod.com">Joe Henriod </a>
   		</div>
 
