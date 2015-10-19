@@ -14,6 +14,9 @@ class QuotesController < ApplicationController
   def about
   end
 
+  def show
+  end
+
 	private
 
 	def quote_params
