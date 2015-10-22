@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
+gem 'factory_girl_rails', "~> 4.0"
+
 # Simple Form to add Quotes to the websites
 gem 'simple_form'
 
